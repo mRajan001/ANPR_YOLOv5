@@ -1,0 +1,8 @@
+# YOLOv4 YAML file contains the path of the training set 
+# test set, number of classes and the class names.
+
+train: ANPR_DATASET\train\train_images
+test: ANPR_DATASET\test\test_images
+
+nc: 1
+names: ['Number plate']
